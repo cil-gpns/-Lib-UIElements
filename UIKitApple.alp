@@ -1,0 +1,2481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+*************************************************
+	         AnyLogic Project File 
+*************************************************	         
+-->
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.7.11.202204111242" AlpVersion="8.7.3">
+<Model>
+	<Id>1632128210207</Id>
+	<Name><![CDATA[UIKitApple]]></Name>
+	<EngineVersion>6</EngineVersion>
+	<JavaPackageName><![CDATA[uikitapple]]></JavaPackageName>
+	<ModelTimeUnit><![CDATA[Second]]></ModelTimeUnit>
+	<ActiveObjectClasses>
+		<!--   =========   Active Object Class   ========  -->
+		<ActiveObjectClass>
+			<Id>1632128210213</Id>
+			<Name><![CDATA[Main]]></Name>
+			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
+			<Generic>false</Generic>
+			<GenericParameter>
+				<Id>1632128210211</Id>
+				<Name><![CDATA[1632128210211]]></Name>
+				<GenericParameterValue Class="CodeValue">
+					<Code><![CDATA[T extends Agent]]></Code>
+				</GenericParameterValue>
+				<GenericParameterLabel><![CDATA[Параметр настройки:]]></GenericParameterLabel>
+			</GenericParameter>
+			<FlowChartsUsage>ENTITY</FlowChartsUsage>
+			<SamplesToKeep>100</SamplesToKeep>
+			<LimitNumberOfArrayElements>false</LimitNumberOfArrayElements>
+			<ElementsLimitValue>100</ElementsLimitValue>
+			<MakeDefaultViewArea>true</MakeDefaultViewArea>
+			<SceneGridColor/>
+			<SceneBackgroundColor/>
+			<SceneSkybox>null</SceneSkybox>
+			<AgentProperties>
+	 			<SpaceType>CONTINUOUS</SpaceType>			
+				<EnvironmentDefinesInitialLocation>true</EnvironmentDefinesInitialLocation>
+				<RotateAnimationTowardsMovement>true</RotateAnimationTowardsMovement>
+				<RotateAnimationVertically>false</RotateAnimationVertically>
+				<VelocityCode Class="CodeUnitValue">
+					<Code><![CDATA[10]]></Code>
+					<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
+				</VelocityCode>
+				<PhysicalLength Class="CodeUnitValue">
+					<Code><![CDATA[1]]></Code>
+					<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+				</PhysicalLength>
+				<PhysicalWidth Class="CodeUnitValue">
+					<Code><![CDATA[1]]></Code>
+					<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+				</PhysicalWidth>
+				<PhysicalHeight Class="CodeUnitValue">
+					<Code><![CDATA[1]]></Code>
+					<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+				</PhysicalHeight>
+			</AgentProperties>
+			<EnvironmentProperties>
+					<EnableSteps>false</EnableSteps>
+					<StepDurationCode Class="CodeUnitValue">
+						<Code><![CDATA[1.0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</StepDurationCode>
+					<SpaceType>CONTINUOUS</SpaceType>
+					<WidthCode><![CDATA[500]]></WidthCode>
+					<HeightCode><![CDATA[500]]></HeightCode>
+					<ZHeightCode><![CDATA[0]]></ZHeightCode>
+					<ColumnsCountCode><![CDATA[100]]></ColumnsCountCode>
+					<RowsCountCode><![CDATA[100]]></RowsCountCode>
+					<NeigborhoodType>MOORE</NeigborhoodType>
+					<LayoutType>USER_DEF</LayoutType>
+					<LayoutTypeApplyOnStartup>true</LayoutTypeApplyOnStartup>
+					<NetworkType>USER_DEF</NetworkType>
+					<NetworkTypeApplyOnStartup>true</NetworkTypeApplyOnStartup>
+					<ConnectionsPerAgentCode><![CDATA[2]]></ConnectionsPerAgentCode>
+					<ConnectionsRangeCode><![CDATA[50]]></ConnectionsRangeCode>
+					<NeighborLinkFractionCode><![CDATA[0.95]]></NeighborLinkFractionCode>
+					<MCode><![CDATA[10]]></MCode>
+			</EnvironmentProperties>
+			<DatasetsCreationProperties>
+				<AutoCreate>true</AutoCreate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1632211200000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</RecurrenceCode>
+			</DatasetsCreationProperties>
+			<ScaleRuler>
+				<Id>1632128210209</Id>
+				<Name><![CDATA[scale]]></Name>
+				<X>0</X><Y>-150</Y>
+				<PublicFlag>false</PublicFlag>
+				<PresentationFlag>false</PresentationFlag>
+				<ShowLabel>false</ShowLabel>
+				<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+				<Length>100</Length>
+				<Rotation>0</Rotation>
+				<ScaleType>BASED_ON_LENGTH</ScaleType>
+				<ModelLength>10</ModelLength>
+				<LengthUnits>METER</LengthUnits>
+				<Scale>10</Scale>
+				<InheritedFromParentAgentType>true</InheritedFromParentAgentType>
+			</ScaleRuler>
+			<CurrentLevel>1632128210212</CurrentLevel>
+			<ConnectionsId>1632128210208</ConnectionsId>
+			<AgentLinks>
+				<AgentLink>
+					<Id>1632128210208</Id>
+					<Name><![CDATA[connections]]></Name>
+					<X>50</X><Y>-50</Y>
+					<Label><X>15</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<HandleReceiveInConnections>false</HandleReceiveInConnections>
+					<AgentLinkType>COLLECTION_OF_LINKS</AgentLinkType>
+					<AgentLinkBidirectional>true</AgentLinkBidirectional>
+					<MessageType><![CDATA[Object]]></MessageType>
+					<LineStyle>SOLID</LineStyle>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineZOrder>UNDER_AGENTS</LineZOrder>
+					<LineArrow>NONE</LineArrow>
+					<LineArrowPosition>END</LineArrowPosition>
+				</AgentLink>
+			</AgentLinks>
+
+
+			<Presentation>
+				<Level>
+					<Id>1632128210212</Id>
+					<Name><![CDATA[level]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LevelVisibility>DIM_NON_CURRENT</LevelVisibility>
+
+			<Presentation>
+				<Image>
+					<Id>1651632803626</Id>
+					<Name><![CDATA[testImage]]></Name>
+					<X>250</X><Y>250</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Width>180</Width>
+					<Height>200</Height>
+					<Rotation>0.0</Rotation>
+					<ImageFiles>
+						<ImageResourceReference>
+							<PackageName><![CDATA[uikitapple]]></PackageName>
+							<ClassName><![CDATA[logo.jpg]]></ClassName>
+						</ImageResourceReference>
+					</ImageFiles>
+					<OriginalSize>false</OriginalSize>
+				</Image>
+				<Group>
+					<Id>1651634596601</Id>
+					<Name><![CDATA[group]]></Name>
+					<X>170</X><Y>110</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<ReplicationCode Class="CodeValue">
+						<Code><![CDATA[4]]></Code>
+					</ReplicationCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<Rectangle>
+					<Id>1651634586658</Id>
+					<Name><![CDATA[rectangle]]></Name>
+					<X>-40</X><Y>-30</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>80</Width>
+					<Height>60</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Text>
+					<Id>1651634589965</Id>
+					<Name><![CDATA[testText]]></Name>
+					<X>-10</X><Y>0</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[text]]></Text>
+					<TextCode><![CDATA[time()]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+			</Presentation>
+
+				</Group>
+				<RoundedRectangle>
+					<Id>1651637052102</Id>
+					<Name><![CDATA[roundRectangle]]></Name>
+					<X>280</X><Y>100</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>80</Width>
+					<Height>60</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>1</ArcRadius>
+				</RoundedRectangle>
+			</Presentation>
+
+				</Level>
+			</Presentation>
+
+		</ActiveObjectClass>
+	</ActiveObjectClasses>	
+	<DifferentialEquationsMethod>EULER</DifferentialEquationsMethod>
+	<MixedEquationsMethod>RK45_NEWTON</MixedEquationsMethod>
+	<AlgebraicEquationsMethod>MODIFIED_NEWTON</AlgebraicEquationsMethod>
+	<AbsoluteAccuracy>1.0E-5</AbsoluteAccuracy>
+	<FixedTimeStep>0.001</FixedTimeStep>
+	<RelativeAccuracy>1.0E-5</RelativeAccuracy>
+	<TimeAccuracy>1.0E-5</TimeAccuracy>
+	<Frame>
+		<Width>1390</Width>
+		<Height>880</Height>
+	</Frame>
+	<Database>
+		<Logging>false</Logging>
+		<AutoExport>false</AutoExport>
+		<ShutdownCompact>false</ShutdownCompact>
+		<ImportSettings>
+		</ImportSettings>
+		<ExportSettings>
+		</ExportSettings>
+	</Database>
+	
+	<RunConfiguration ActiveObjectClassId="1632128210213">
+		<Id>1632128210217</Id>
+		<Name><![CDATA[RunConfiguration]]></Name>
+		<MaximumMemory>512</MaximumMemory>
+		<ModelTimeProperties>
+			<StopOption><![CDATA[Stop at specified time]]></StopOption>
+			<InitialDate><![CDATA[1632096000000]]></InitialDate>	
+			<InitialTime><![CDATA[0.0]]></InitialTime>	
+			<FinalDate><![CDATA[1634688000000]]></FinalDate>	
+			<FinalTime><![CDATA[100.0]]></FinalTime>	
+		</ModelTimeProperties>
+		<AnimationProperties>
+			<StopNever>true</StopNever>
+			<ExecutionMode>realTimeScaled</ExecutionMode>
+			<RealTimeScale>1.0</RealTimeScale>
+			<EnableZoomAndPanning>true</EnableZoomAndPanning>
+			<EnableDeveloperPanel>false</EnableDeveloperPanel>
+			<ShowDeveloperPanelOnStart>false</ShowDeveloperPanelOnStart>
+		</AnimationProperties>
+		<Inputs>		
+		</Inputs>
+		<Outputs>
+		</Outputs>
+	</RunConfiguration>
+	<Experiments>	
+		<!--   =========   Simulation Experiment   ========  -->
+		<SimulationExperiment ActiveObjectClassId="1632128210213">
+			<Id>1632128210215</Id>
+			<Name><![CDATA[Simulation]]></Name>
+			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
+			<Import><![CDATA[import com.fasterxml.jackson.databind.ser.std.StdArraySerializers.BooleanArraySerializer;]]></Import>
+			<CommandLineArguments><![CDATA[]]></CommandLineArguments>
+			<InitialSetupCode><![CDATA[init();
+init2();
+init3();
+init4();
+init5();]]></InitialSetupCode>
+			<MaximumMemory>512</MaximumMemory>
+			<RandomNumberGenerationType>fixedSeed</RandomNumberGenerationType>
+			<CustomGeneratorCode>new Random()</CustomGeneratorCode>
+			<SeedValue>1</SeedValue>
+			<SelectionModeForSimultaneousEvents>LIFO</SelectionModeForSimultaneousEvents>
+			<VmArgs><![CDATA[]]></VmArgs>
+			<LoadRootFromSnapshot>false</LoadRootFromSnapshot>
+			<Variables>
+				<Variable Class="PlainVariable">
+					<Id>1632131199184</Id>
+					<Name><![CDATA[switcherButton3]]></Name>
+					<X>170</X><Y>185</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[SwitcherButton]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1632133006636</Id>
+					<Name><![CDATA[switcherButton1]]></Name>
+					<X>170</X><Y>130</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[SwitcherButton]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1632133011737</Id>
+					<Name><![CDATA[switcherButton2]]></Name>
+					<X>170</X><Y>160</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[SwitcherButton]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1632138141871</Id>
+					<Name><![CDATA[labelMenu]]></Name>
+					<X>640</X><Y>110</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[LabelMenu]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1632157209862</Id>
+					<Name><![CDATA[stepper]]></Name>
+					<X>1020</X><Y>180</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1632236384156</Id>
+					<Name><![CDATA[slider]]></Name>
+					<X>960</X><Y>270</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[Slider]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1651176653697</Id>
+					<Name><![CDATA[button1]]></Name>
+					<X>420</X><Y>530</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[Button]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1651176661893</Id>
+					<Name><![CDATA[button2]]></Name>
+					<X>420</X><Y>510</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[Button]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1651731407670</Id>
+					<Name><![CDATA[header]]></Name>
+					<X>790</X><Y>680</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[Header]]></Type>        
+					</Properties>
+				</Variable>
+			</Variables>
+			<Functions>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnModificator>VOID</ReturnModificator>
+					<ReturnType><![CDATA[double]]></ReturnType>
+					<Id>1632136384649</Id>
+					<Name><![CDATA[init]]></Name>
+					<X>170</X><Y>220</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[switcherButton1 = new SwitcherButton(roundRectangle2, oval2);
+switcherButton2 = new SwitcherButton(roundRectangle, oval);
+switcherButton3 = new SwitcherButton(roundRectangle1, oval1);]]></Body>
+				</Function>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnModificator>VOID</ReturnModificator>
+					<ReturnType><![CDATA[double]]></ReturnType>
+					<Id>1632138129901</Id>
+					<Name><![CDATA[init2]]></Name>
+					<X>570</X><Y>110</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[labelMenu = new LabelMenu(roundRectangle5, presentation, 10, "раз", "два", "три", "четыре");]]></Body>
+				</Function>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnModificator>VOID</ReturnModificator>
+					<ReturnType><![CDATA[double]]></ReturnType>
+					<Id>1632161109226</Id>
+					<Name><![CDATA[init3]]></Name>
+					<X>1260</X><Y>270</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[
+slider = new Slider(line11, 15, 2, presentation);
+]]></Body>
+				</Function>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnModificator>VOID</ReturnModificator>
+					<ReturnType><![CDATA[double]]></ReturnType>
+					<Id>1651176548647</Id>
+					<Name><![CDATA[init4]]></Name>
+					<X>420</X><Y>490</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[ButtonStyle blueButtonStyle = new ButtonStyle();
+blueButtonStyle.setFillColor(Color.WHITE);
+blueButtonStyle.setLineColor(Color.BLUE);
+blueButtonStyle.setTextColor(Color.BLACK);
+button1 = new Button(roundRectangle4, presentation, "Button");
+button2 = new Button(rectangle7, presentation, "Button", blueButtonStyle);]]></Body>
+				</Function>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnModificator>VOID</ReturnModificator>
+					<ReturnType><![CDATA[double]]></ReturnType>
+					<Id>1651731382607</Id>
+					<Name><![CDATA[init5]]></Name>
+					<X>730</X><Y>680</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[header = new Header(roundRectangle3, presentation, 10, "logo.jpg", "раз", "два", "три", "четыре");]]></Body>
+				</Function>
+			</Functions>
+
+			<Presentation>
+				<Rectangle>
+					<Id>1651737739642</Id>
+					<Name><![CDATA[rectangle8]]></Name>
+					<X>700</X><Y>580</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>390</Width>
+					<Height>260</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Rectangle>
+					<Id>1632237401197</Id>
+					<Name><![CDATA[rectangle6]]></Name>
+					<X>940</X><Y>250</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>390</Width>
+					<Height>280</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Rectangle>
+					<Id>1632157630036</Id>
+					<Name><![CDATA[rectangle5]]></Name>
+					<X>990</X><Y>60</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>260</Width>
+					<Height>150</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Rectangle>
+					<Id>1632156952504</Id>
+					<Name><![CDATA[rectangle2]]></Name>
+					<X>140</X><Y>410</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>450</Width>
+					<Height>450</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Rectangle>
+					<Id>1632156322618</Id>
+					<Name><![CDATA[rectangle1]]></Name>
+					<X>510</X><Y>60</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>400</Width>
+					<Height>290</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Rectangle>
+					<Id>1632132975011</Id>
+					<Name><![CDATA[rectangle]]></Name>
+					<X>140</X><Y>60</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>260</Width>
+					<Height>280</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Text>
+					<Id>1632128210216</Id>
+					<Name><![CDATA[text]]></Name>
+					<X>10</X><Y>-40</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-12490271</Color>
+					<Text><![CDATA[UIKitApple]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>24</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Group>
+					<Id>1632131236079</Id>
+					<Name><![CDATA[group]]></Name>
+					<X>360</X><Y>160</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<OnClickCode><![CDATA[switcherButton2.click();]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<RoundedRectangle>
+					<Id>1632131199176</Id>
+					<Name><![CDATA[roundRectangle]]></Name>
+					<X>-17</X><Y>-10</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor/>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>37</Width>
+					<Height>20</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-2236963</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<Oval>
+					<Id>1632131199171</Id>
+					<Name><![CDATA[oval]]></Name>
+					<X>-6.850000000000023</X><Y>0.07499999999998863</Y>
+					<Label><X>0</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>0.1</LineWidth>
+					<LineColor/>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<RadiusX>8.125</RadiusX>
+					<RadiusY>40</RadiusY>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Oval>
+			</Presentation>
+
+				</Group>
+				<Group>
+					<Id>1632132997382</Id>
+					<Name><![CDATA[group1]]></Name>
+					<X>360</X><Y>190</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<OnClickCode><![CDATA[switcherButton3.click();]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<RoundedRectangle>
+					<Id>1632132997384</Id>
+					<Name><![CDATA[roundRectangle1]]></Name>
+					<X>-17</X><Y>-10</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor/>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>37</Width>
+					<Height>20</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-2236963</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<Oval>
+					<Id>1632132997386</Id>
+					<Name><![CDATA[oval1]]></Name>
+					<X>-6.850000000000023</X><Y>0.07499999999998863</Y>
+					<Label><X>0</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>0.1</LineWidth>
+					<LineColor/>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<RadiusX>8.125</RadiusX>
+					<RadiusY>40</RadiusY>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Oval>
+			</Presentation>
+
+				</Group>
+				<Group>
+					<Id>1632133001235</Id>
+					<Name><![CDATA[group2]]></Name>
+					<X>360</X><Y>130</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<OnClickCode><![CDATA[switcherButton1.click();]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<RoundedRectangle>
+					<Id>1632133001237</Id>
+					<Name><![CDATA[roundRectangle2]]></Name>
+					<X>-17</X><Y>-10</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor/>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>37</Width>
+					<Height>20</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-2236963</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<Oval>
+					<Id>1632133001239</Id>
+					<Name><![CDATA[oval2]]></Name>
+					<X>-6.850000000000023</X><Y>0.07499999999998863</Y>
+					<Label><X>0</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>0.1</LineWidth>
+					<LineColor/>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<RadiusX>8.125</RadiusX>
+					<RadiusY>40</RadiusY>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Oval>
+			</Presentation>
+
+				</Group>
+				<Text>
+					<Id>1632133345036</Id>
+					<Name><![CDATA[text1]]></Name>
+					<X>270</X><Y>70</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Switches]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>CENTER</Alignment>
+				</Text>
+				<RoundedRectangle>
+					<Id>1632143124329</Id>
+					<Name><![CDATA[roundRectangle5]]></Name>
+					<X>560</X><Y>190</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>290</Width>
+					<Height>20</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>3</ArcRadius>
+				</RoundedRectangle>
+				<Text>
+					<Id>1632156147721</Id>
+					<Name><![CDATA[text2]]></Name>
+					<X>150</X><Y>250</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Использование: 
+1. Копируешь переключатель
+2. Создаешь переменную типа SwitcherButton
+3. По клику прописываешь SwitcherButton.onClick();
+4. В init иницилизируешь объект.
+Конструктор (ShapeRectangle, ShapeOval)]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1632156333004</Id>
+					<Name><![CDATA[text3]]></Name>
+					<X>520</X><Y>240</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Использование: 
+1. Перетягиваешь с палитры roundRectangle. 
+Изменяешь, как угодно.
+2. Создаешь переменную типа LabelMenu
+4. В init иницилизируешь объект.
+Конструктор (ShapeRectangle, ShapeTopLevelPresentationGroup, 
+размер шрифта, стринги (через запятую))
+5. Действия прописываешь в классе LabelElementRounded и LabelElementStrict]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1632156550715</Id>
+					<Name><![CDATA[text4]]></Name>
+					<X>680</X><Y>70</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Segment Controls]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>CENTER</Alignment>
+				</Text>
+				<Text>
+					<Id>1632157033497</Id>
+					<Name><![CDATA[text7]]></Name>
+					<X>360</X><Y>430</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Button]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>CENTER</Alignment>
+				</Text>
+				<Text>
+					<Id>1632157198428</Id>
+					<Name><![CDATA[text8]]></Name>
+					<X>1060</X><Y>115</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[']]></Text>
+					<TextCode><![CDATA[stepper]]></TextCode>
+					<Font>
+						<Name>Arial</Name>
+						<Size>10</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>CENTER</Alignment>
+				</Text>
+				<Group>
+					<Id>1632157257333</Id>
+					<Name><![CDATA[group5]]></Name>
+					<X>1040</X><Y>120</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<OnClickCode><![CDATA[stepper--;]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<Oval>
+					<Id>1632157097511</Id>
+					<Name><![CDATA[oval3]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>0</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16745729</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<RadiusX>10</RadiusX>
+					<RadiusY>40</RadiusY>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Oval>
+				<Line>
+					<Id>1632157132492</Id>
+					<Name><![CDATA[line]]></Name>
+					<X>-5</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16745729</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>10</Dx>
+					<Dy>0</Dy>
+					<Dz>0</Dz>
+				</Line>
+			</Presentation>
+
+				</Group>
+				<Group>
+					<Id>1632157260566</Id>
+					<Name><![CDATA[group6]]></Name>
+					<X>1080</X><Y>120</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<OnClickCode><![CDATA[stepper++;]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<Oval>
+					<Id>1632157116268</Id>
+					<Name><![CDATA[oval4]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>0</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16745729</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<RadiusX>10</RadiusX>
+					<RadiusY>40</RadiusY>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Oval>
+				<Line>
+					<Id>1632157160069</Id>
+					<Name><![CDATA[line1]]></Name>
+					<X>-5</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16745729</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>10</Dx>
+					<Dy>0</Dy>
+					<Dz>0</Dz>
+				</Line>
+				<Line>
+					<Id>1632157165849</Id>
+					<Name><![CDATA[line2]]></Name>
+					<X>0</X><Y>-5</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16745729</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>0</Dx>
+					<Dy>10</Dy>
+					<Dz>0</Dz>
+				</Line>
+			</Presentation>
+
+				</Group>
+				<Group>
+					<Id>1632157510632</Id>
+					<Name><![CDATA[group7]]></Name>
+					<X>1183</X><Y>120</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<OnClickCode><![CDATA[stepper++;]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+
+				</Group>
+				<Group>
+					<Id>1632157553925</Id>
+					<Name><![CDATA[group8]]></Name>
+					<X>1150</X><Y>120</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<OnClickCode><![CDATA[stepper--;]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<Rectangle>
+					<Id>1632157374152</Id>
+					<Name><![CDATA[rectangle3]]></Name>
+					<X>-20</X><Y>-10</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16745729</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>35.75</Width>
+					<Height>20</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Line>
+					<Id>1632157406468</Id>
+					<Name><![CDATA[line3]]></Name>
+					<X>-7</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16745729</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>10</Dx>
+					<Dy>0</Dy>
+					<Dz>0</Dz>
+				</Line>
+			</Presentation>
+
+				</Group>
+				<Group>
+					<Id>1632157574124</Id>
+					<Name><![CDATA[group9]]></Name>
+					<X>1184</X><Y>121</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<OnClickCode><![CDATA[stepper++;]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<Rectangle>
+					<Id>1632157497701</Id>
+					<Name><![CDATA[rectangle4]]></Name>
+					<X>-19</X><Y>-11</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16745729</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>35.75</Width>
+					<Height>20</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Line>
+					<Id>1632157510636</Id>
+					<Name><![CDATA[line4]]></Name>
+					<X>-6</X><Y>-1</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16745729</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>10</Dx>
+					<Dy>0</Dy>
+					<Dz>0</Dz>
+				</Line>
+				<Line>
+					<Id>1632157510638</Id>
+					<Name><![CDATA[line5]]></Name>
+					<X>-1</X><Y>-6</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16745729</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>0</Dx>
+					<Dy>10</Dy>
+					<Dz>0</Dz>
+				</Line>
+			</Presentation>
+
+				</Group>
+				<Text>
+					<Id>1632157648976</Id>
+					<Name><![CDATA[text9]]></Name>
+					<X>1120</X><Y>80</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Steppers]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>CENTER</Alignment>
+				</Text>
+				<Group>
+					<Id>1632158371952</Id>
+					<Name><![CDATA[group10]]></Name>
+					<X>1250</X><Y>330</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<OnClickCode><![CDATA[slider.increaseSlider();]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<Oval>
+					<Id>1632158371954</Id>
+					<Name><![CDATA[oval7]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>0</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16745729</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<RadiusX>10</RadiusX>
+					<RadiusY>40</RadiusY>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Oval>
+				<Line>
+					<Id>1632158371956</Id>
+					<Name><![CDATA[line8]]></Name>
+					<X>-5</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16745729</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>10</Dx>
+					<Dy>0</Dy>
+					<Dz>0</Dz>
+				</Line>
+				<Line>
+					<Id>1632158371958</Id>
+					<Name><![CDATA[line9]]></Name>
+					<X>0</X><Y>-5</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16745729</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>0</Dx>
+					<Dy>10</Dy>
+					<Dz>0</Dz>
+				</Line>
+			</Presentation>
+
+				</Group>
+				<Group>
+					<Id>1632158377893</Id>
+					<Name><![CDATA[group11]]></Name>
+					<X>1020</X><Y>330</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<OnClickCode><![CDATA[slider.dicreaseSlider();]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+
+			<Presentation>
+				<Oval>
+					<Id>1632158377895</Id>
+					<Name><![CDATA[oval8]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>0</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16745729</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<RadiusX>10</RadiusX>
+					<RadiusY>40</RadiusY>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Oval>
+				<Line>
+					<Id>1632158377897</Id>
+					<Name><![CDATA[line10]]></Name>
+					<X>-5</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16745729</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>10</Dx>
+					<Dy>0</Dy>
+					<Dz>0</Dz>
+				</Line>
+			</Presentation>
+
+				</Group>
+				<Line>
+					<Id>1632234505958</Id>
+					<Name><![CDATA[line11]]></Name>
+					<X>1030</X><Y>370</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<BeginArrowSize>1</BeginArrowSize>
+					<BeginArrowStyle>0</BeginArrowStyle>
+					<EndArrowSize>1</EndArrowSize>
+					<EndArrowStyle>0</EndArrowStyle>
+					<Dx>210</Dx>
+					<Dy>0</Dy>
+					<Dz>0</Dz>
+				</Line>
+				<Text>
+					<Id>1632237436817</Id>
+					<Name><![CDATA[text10]]></Name>
+					<X>1130</X><Y>260</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Slider]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>CENTER</Alignment>
+				</Text>
+				<Text>
+					<Id>1632238469166</Id>
+					<Name><![CDATA[text11]]></Name>
+					<X>1130</X><Y>300</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[']]></Text>
+					<TextCode><![CDATA[slider.getActualValue()]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>CENTER</Alignment>
+				</Text>
+				<Text>
+					<Id>1632238741106</Id>
+					<Name><![CDATA[text12]]></Name>
+					<X>950</X><Y>400</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Использование: 
+1. Перетягиваешь с палитры ShapeLine. 
+Изменяешь, как угодно.
+2. Создаешь переменную типа Slider
+4. В init иницилизируешь объект.
+Конструктор (ShapeLine, максимальное значение, 
+шаг, ShapeTopLevelPresentationGroup)
+5. Для увеличения и уменьшения используешь increaseSlider и dicreaseSlider
+6. Для получения доступа к текущие значению - getActualValue]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<RoundedRectangle>
+					<Id>1632156983205</Id>
+					<Name><![CDATA[roundRectangle4]]></Name>
+					<X>160</X><Y>460</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<OnClickCode><![CDATA[button2.setFillColor(Color.YELLOW);
+button2.draw();]]></OnClickCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>160</Width>
+					<Height>40</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<Rectangle>
+					<Id>1651176518328</Id>
+					<Name><![CDATA[rectangle7]]></Name>
+					<X>160</X><Y>520</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>160</Width>
+					<Height>40</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+				</Rectangle>
+				<Text>
+					<Id>1651235523598</Id>
+					<Name><![CDATA[text5]]></Name>
+					<X>160</X><Y>600</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Использование:
+1. Рисуешь обычный или скруглённый прямоугольник
+2. Создаёшь объект класса Button, в конструктор передаёшь
+прямоугольник, presentation и текст.
+Если есть готовый стиль ButtonStyle, можно передать ещё его.
+3. Размер шрифта поберётся автоматически под размер кнопки.
+Отключить эту фичу можно через setAdjustFont(false).
+Задать соотношение размера кнопки и шрифта через setFontMultiplier(double)
+4. Задать цвет заливки, линии, текста, сам шрифт и т.д. можно
+через соответствующие сеттеры. Чтобы применить изменения в рантайме,
+вызвать draw().
+5. Действие по клику задаётся в действии по клику прямоугольника.
+6. Button также содержит поле enabled, просто для отслеживания - 
+отключать клик надо руками.
+7. Также можно пользоваться стилями ButtonStyle.
+Дефолтный конструктор ButtonStyle() генерит дефолтный оранжевый стиль.
+Поменять его можно сеттерами. Применить его к кнопке можно либо через
+конструктор при создании, либо через changeStyle(ButtonStyle).
+changeStyle(ButtonStyle) работает в рантайме.
+8. На наведение курсора кнопка реагирует только если задано действие по нажатию.]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<RoundedRectangle>
+					<Id>1651731373812</Id>
+					<Name><![CDATA[roundRectangle3]]></Name>
+					<X>720</X><Y>610</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<ZHeight>10</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>350</Width>
+					<Height>50</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>null</FillMaterial>
+					<ArcRadius>10</ArcRadius>
+				</RoundedRectangle>
+				<Text>
+					<Id>1651737769630</Id>
+					<Name><![CDATA[text13]]></Name>
+					<X>890</X><Y>590</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Header]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>CENTER</Alignment>
+				</Text>
+				<Text>
+					<Id>1651737791360</Id>
+					<Name><![CDATA[text14]]></Name>
+					<X>730</X><Y>710</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Использование: 
+1. Рисуешь скруглённый прямоугольник
+2. Создаёшь объект класса Header, 
+в него передаёшь прямоугольник, presentation, размер шрифта,
+картинку (или null, если не нужна), и через запятую названия вкладок
+3. Вкладки работают как Segment Controls
+4. Шрифт, заливку и прочие визуальные параметры настраиваешь
+непосредственно в коде класса, потому что кастомизация в рантайме
+не нужна, и стиль хэдера задаётся один на модель]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+			</Presentation>
+
+			<Parameters>			
+			</Parameters>			
+			<PresentationProperties>
+				<EnableZoomAndPanning>true</EnableZoomAndPanning>
+				<ExecutionMode><![CDATA[realTimeScaled]]></ExecutionMode>
+				<Title><![CDATA[UIKitApple : Simulation]]></Title>	
+				<EnableDeveloperPanel>true</EnableDeveloperPanel>
+				<ShowDeveloperPanelOnStart>false</ShowDeveloperPanelOnStart>
+				<RealTimeScale>1.0</RealTimeScale>
+			</PresentationProperties>
+			<ModelTimeProperties>
+				<StopOption><![CDATA[Never]]></StopOption>
+				<InitialDate><![CDATA[1632096000000]]></InitialDate>	
+				<InitialTime><![CDATA[0.0]]></InitialTime>	
+				<FinalDate><![CDATA[1634688000000]]></FinalDate>	
+				<FinalTime><![CDATA[100.0]]></FinalTime>	
+			</ModelTimeProperties>
+			<BypassInitialScreen>false</BypassInitialScreen>
+		</SimulationExperiment>	
+	</Experiments>
+	<JavaClasses>
+		<!--   =========   Java Class   ========  -->
+		<JavaClass>
+			<Id>1632132411411</Id>
+			<Name><![CDATA[SwitcherButton]]></Name>
+			<Text><![CDATA[/**
+ * WrapperBool
+ */	
+public class SwitcherButton {
+
+    
+    public SwitcherButton(ShapeRectangle rec, ShapeOval ov) {
+    	switcher = false;
+    	this.rec = rec;
+    	this.ov = ov;
+    }
+    
+    private boolean switcher;
+    private ShapeRectangle rec;
+    private ShapeOval ov;
+    
+    private void switchBool () {
+    	if(switcher == false) switcher = true;	
+    	else switcher = false;
+    }
+    
+
+    public boolean getBool() {
+    	return switcher;
+    }
+    
+    public void click() {
+    	if(switcher == true) off();
+    	else on();
+    }
+    
+    private void on() {
+    	rec.setFillColor(new Color(110, 220, 95));
+    	ov.setX(ov.getX() + 17.00);
+    	switchBool();
+    }
+    
+    private void off() {
+    	rec.setFillColor(new Color(221, 221, 221));
+    	ov.setX(ov.getX() - 17.00);
+    	switchBool();
+    	
+    }
+    public String toString() {
+    	return String.valueOf(switcher);
+    }
+    
+	private static final long serialVersionUID = 1L;
+
+}]]></Text>
+		</JavaClass>
+		<!--   =========   Java Class   ========  -->
+		<JavaClass>
+			<Id>1632136909827</Id>
+			<Name><![CDATA[LabelMenu]]></Name>
+			<Text><![CDATA[/**
+ * LabelMenu
+ */	
+public class LabelMenu implements Serializable {
+
+    
+    public LabelMenu(ShapeRectangle rec, ShapeTopLevelPresentationGroup pres, int fontSize, String ... text) {
+    	this.qty = text.length;
+    	this.rec = rec;
+    	this.pres = pres;
+    	if(qty > 2) percentage = 0.95;
+    	else percentage = 0.9;
+    	texts = text;
+    	this.fontSize = fontSize;
+    	init();
+    }
+    
+    private String[] texts;
+    private ShapeRectangle rec;
+    private int qty;
+    private ShapeTopLevelPresentationGroup pres;
+    private double percentage;
+    private HashMap<ShapeRectangle, ShapeText> labelArray = new HashMap();
+    private int fontSize;
+    
+    private void init() {
+    	
+    	rec.setVisible(false);
+    	
+    	LabelElementRounded first = new LabelElementRounded(
+    			true, rec.getX(), rec.getY(), 0.0, 
+    			new Color( 0xFF007AFF, true ), new Color( 0xFF007AFF, true ),
+    			rec.getWidth()/qty, rec.getHeight(), 3.0,
+    			1.0, LINE_STYLE_SOLID, labelArray, 0);  
+    	ShapeText textFirst = new ShapeText(true,first.getX() + first.getWidth() * percentage/2,first.getY() + first.getHeight()/2 - fontSize/2 ,0.0,white,
+    			texts[0],new Font("Arial", 0, fontSize ), ALIGNMENT_CENTER);
+    			
+    	pres.add(first);
+    	pres.add(textFirst);
+    	labelArray.put(first, textFirst);
+
+    	
+    	double x1 = rec.getX() + (rec.getWidth()/qty * percentage) * (qty - 1);    	
+    	LabelElementRounded last = new LabelElementRounded(
+    			true, x1, rec.getY(), 0.0, 
+    			new Color( 0xFF007AFF, true ), white,
+    			rec.getWidth()/qty, rec.getHeight(), 3.0, 
+    			1.0, LINE_STYLE_SOLID, labelArray, texts.length - 1);   
+    	ShapeText textLast = new ShapeText(true,last.getX() + last.getWidth()/2 ,last.getY() + last.getHeight()/2 - fontSize/2 ,0.0,new Color(0, 122, 255),
+    			texts[texts.length - 1],new Font("Arial", 0, fontSize ), ALIGNMENT_CENTER);
+    	pres.add(last);
+    	pres.add(textLast);
+    	labelArray.put(last, textLast);
+    	
+    	
+    	double x2 = rec.getX() + rec.getWidth()/qty * percentage;    	
+    	for(int i = 0; i < qty-2; i++) {
+    		LabelElementStrict intermidiate = new LabelElementStrict(
+        			true, x2, rec.getY(), 0.0, 
+        			new Color( 0xFF007AFF, true ), white,
+        			rec.getWidth()/qty, rec.getHeight(), 
+        			1.0, LINE_STYLE_SOLID, labelArray,2 + i);
+    		ShapeText textIntermidiate = new ShapeText(true,intermidiate.getX() + intermidiate.getWidth() * percentage/2,intermidiate.getY() + intermidiate.getHeight()/2 - fontSize/2, 0.0, new Color(0, 122, 255),
+        			texts[i+1],new Font("Arial", 0, fontSize ), ALIGNMENT_CENTER);
+    		
+	        x2 = x2 + rec.getWidth()/qty * percentage;
+	        pres.add(intermidiate);
+	        pres.add(textIntermidiate);       
+	        labelArray.put(intermidiate, textIntermidiate);
+    	}
+    	
+    	
+    	
+    }
+}
+]]></Text>
+		</JavaClass>
+		<!--   =========   Java Class   ========  -->
+		<JavaClass>
+			<Id>1632139527472</Id>
+			<Name><![CDATA[LabelElementRounded]]></Name>
+			<Text><![CDATA[/**
+ * LabelElementRounded
+ */	
+public class LabelElementRounded extends ShapeRoundedRectangle {
+
+    
+    public LabelElementRounded(boolean ispublic,double x,double y,double rotation,java.awt.Paint lineColor,
+    		java.awt.Paint fillColor,double width,double height,
+    		double radius,double lineWidth, LineStyle lineStyle, HashMap<ShapeRectangle, ShapeText> labelArray, int index) {
+    	super(ispublic, x, y, rotation,lineColor, fillColor, width, height, radius, lineWidth,  lineStyle);
+    	this.labelArray = labelArray;
+    	this.index = index;
+    }
+
+    private HashMap<ShapeRectangle, ShapeText> labelArray;
+    private int index;
+    @Override
+    public boolean onClick(double x, double y) {
+    	for (Map.Entry<ShapeRectangle, ShapeText> e : labelArray.entrySet()) {
+    		ShapeRectangle key = e.getKey();
+    		ShapeText value = e.getValue();
+    		if(key.equals(this)) {
+    			key.setFillColor(new Color(0, 122, 255));
+    			value.setColor(white);
+    		}else {
+    			key.setFillColor(white);
+    			value.setColor(new Color(0, 122, 255));
+    		}
+    		
+    	}
+    	
+    	// actions go here
+    	return false;
+    }
+    
+
+}]]></Text>
+		</JavaClass>
+		<!--   =========   Java Class   ========  -->
+		<JavaClass>
+			<Id>1632139826378</Id>
+			<Name><![CDATA[LabelElementStrict]]></Name>
+			<Text><![CDATA[/**
+ * LabelElementStrict
+ */	
+public class LabelElementStrict extends ShapeRectangle {
+
+    
+    public LabelElementStrict(boolean ispublic,double x,double y,double rotation,java.awt.Paint lineColor,
+    		java.awt.Paint fillColor,double width,double height,
+    		double lineWidth, LineStyle lineStyle,  HashMap<ShapeRectangle, ShapeText> labelArray, int index) {
+    	
+    	super(ispublic, x, y, rotation,lineColor, fillColor, width, height, lineWidth, lineStyle);
+    	this.labelArray = labelArray;
+    	this.index = index;
+    }
+    
+    private HashMap<ShapeRectangle, ShapeText> labelArray;
+    private int index;
+    @Override
+    public boolean onClick(double x, double y) {
+    	for (Map.Entry<ShapeRectangle, ShapeText> e : labelArray.entrySet()) {
+    		ShapeRectangle key = e.getKey();
+    		ShapeText value = e.getValue();
+    		if(key.equals(this)) {
+    			key.setFillColor(new Color(0, 122, 255));
+    			value.setColor(white);
+    		}else {
+    			key.setFillColor(white);
+    			value.setColor(new Color(0, 122, 255));
+    		}
+    		
+    	}
+    	
+    	// actions go here
+    	return false;
+    }
+	
+
+}]]></Text>
+		</JavaClass>
+		<!--   =========   Java Class   ========  -->
+		<JavaClass>
+			<Id>1632234547880</Id>
+			<Name><![CDATA[Slider]]></Name>
+			<Text><![CDATA[/**
+ * Slider
+ */	
+public class Slider implements Serializable {
+
+   private int step;
+   private int maxCount;
+   private ShapeLine blueLine;
+   private ShapeLine grayLine;
+   private double dX;
+   private double lengthBlue;
+   private double lengthGray;
+   private ShapeOval oval1;
+   private ShapeOval oval2;
+   private int actualValue = 0;
+   
+   ShapeTopLevelPresentationGroup pres; 
+   
+    public Slider(ShapeLine line, int maxCount, int step, ShapeTopLevelPresentationGroup pres ) {
+    	this.step = step;
+    	this.maxCount = maxCount;
+    	this.pres = pres;
+    	dX = (double)step/maxCount;
+    	blueLine = new ShapeLine(true,line.getX(),line.getY(),new Color(0, 122, 255),0,0,1, LINE_STYLE_SOLID);
+    	grayLine = new ShapeLine(true,line.getX(),line.getY(),new Color(200, 199, 204),line.getDx(),0,1, LINE_STYLE_SOLID);
+    	pres.add(blueLine);
+    	pres.add(grayLine);
+    	line.setVisible(false);
+    	oval1 = new ShapeOval(
+     	       SHAPE_DRAW_2D, true,line.getX() , line.getY(), 0.0, 0.0, 
+     	       new Color(200, 199, 204), white,
+     		   10.0, 10.0, 0, 0.3, LINE_STYLE_SOLID);
+    	oval2 = new ShapeOval(
+      	       SHAPE_DRAW_2D, true,line.getX() , line.getY() + 1, 0.0, 0.0, 
+      	     new Color(187, 187, 187), new Color(187, 187, 187),
+      		   10.0, 10.0, 0, 0.3, LINE_STYLE_SOLID);
+    	pres.add(oval2);
+    	pres.add(oval1);
+    	lengthBlue = blueLine.getDx();
+    	lengthGray = grayLine.getDx();
+    }
+	
+    public void increaseSlider() {
+    	if(actualValue < maxCount && !(actualValue + step > maxCount)){
+    		actualValue = actualValue + step;
+    		grayLine.setX(grayLine.getX() + (lengthGray * dX));
+    		grayLine.setDx(grayLine.getDx() - (lengthGray * dX));
+    		
+    		blueLine.setDx(blueLine.getDx() + ((lengthBlue + lengthGray) * dX));
+    		
+    		oval1.setX(blueLine.getX() + blueLine.getDx());
+    		oval2.setX(blueLine.getX() + blueLine.getDx());
+    	}
+    }
+    
+    public void dicreaseSlider() {
+    	
+    	if( actualValue > 0  ){
+    		actualValue = actualValue - step;
+    		grayLine.setX(grayLine.getX() - (lengthGray * dX));
+    		grayLine.setDx(grayLine.getDx() + (lengthGray * dX));
+			
+    		blueLine.setDx(blueLine.getDx() - ((lengthBlue + lengthGray) * dX));
+			
+    		oval1.setX(blueLine.getX() + blueLine.getDx());
+    		oval2.setX(blueLine.getX() + blueLine.getDx());
+    			
+    	}
+    }
+    
+    public int getActualValue() {
+    	return actualValue;
+    }
+}]]></Text>
+		</JavaClass>
+		<!--   =========   Java Class   ========  -->
+		<JavaClass>
+			<Id>1651049282174</Id>
+			<Name><![CDATA[Button]]></Name>
+			<Text><![CDATA[/**
+ * Button
+ */	
+import java.awt.font.FontRenderContext;
+import java.awt.geom.AffineTransform;
+
+public class Button implements Serializable {
+	
+	private Color fillColor;
+	private Color lineColor;
+	private LineStyle lineStyle;
+	private double lineWidth;
+	
+	private Color textColor;
+	private String labelText;
+	private Font font;
+	
+	private boolean adjustFont = true;
+	private double fontSizeMultiplier;
+	
+	private boolean enabled = true;
+	
+	private ShapeText label;
+	private Double labelX, labelY;
+	private ShapeRectangle rec;
+	private double buttonX, buttonY;
+	private double buttonHeight, buttonWidth;
+	private ShapeTopLevelPresentationGroup pres;
+
+    public Button(ShapeRectangle rec, ShapeTopLevelPresentationGroup pres, String label) {
+    	this.rec = rec;
+    	this.pres = pres;
+    	labelText = label;
+    	buttonX = rec.getX();
+    	buttonY = rec.getY();
+    	buttonWidth = rec.getWidth();
+    	buttonHeight = rec.getHeight();
+    	applyButtonStyle(new ButtonStyle());
+    	draw();
+    }
+    
+    public Button(ShapeRectangle rec, ShapeTopLevelPresentationGroup pres, String label, ButtonStyle buttonStyle) {
+    	this.rec = rec;
+    	this.pres = pres;
+    	labelText = label;
+    	buttonX = rec.getX();
+    	buttonY = rec.getY();
+    	buttonWidth = rec.getWidth();
+    	buttonHeight = rec.getHeight();
+    	applyButtonStyle(buttonStyle);
+    	draw();
+    }
+    
+    public void changeStyle(ButtonStyle buttonStyle) {
+    	applyButtonStyle(buttonStyle);
+    	draw();
+    }
+    
+    public void draw() {
+    	rec.setFillColor(fillColor);
+    	rec.setLineColor(lineColor);
+    	rec.setLineStyle(lineStyle);
+    	rec.setLineWidth(lineWidth);
+    	
+    	if(adjustFont) adjustFont();
+    	
+    	if(label != null) pres.remove(label);
+    	
+    	defineLabelCoordinates();
+    	
+    	label = new ShapeText(
+                SHAPE_DRAW_2D, true, labelX, labelY, 0.0, 0.0, 
+                textColor, labelText,
+                font, ALIGNMENT_CENTER);
+    	
+    	pres.add(label);
+    }
+    
+    public void setFillColor(Color color) {
+    	this.fillColor = color;
+    }
+    
+    public Color getFillColor() {
+    	return fillColor;
+    }
+    
+    public void setLineColor(Color color) {
+    	this.lineColor = color;
+    }
+    
+    public Color getLineColor() {
+    	return lineColor;
+    }
+    
+    public void setLineStyle(LineStyle lineStyle) {
+    	this.lineStyle = lineStyle;
+    }
+    
+    public LineStyle getLineStyle() {
+    	return lineStyle;
+    }
+    
+    public void setLineWidth(double lineWidth) {
+    	this.lineWidth = lineWidth;
+    }
+    
+    public double getLineWidth() {
+    	return lineWidth;
+    }
+    
+    public void setTextColor(Color color) {
+    	this.textColor = color;
+    }
+    
+    public Color getTextColor() {
+    	return textColor;
+    }
+    
+    public void setLabelText(String text) {
+    	this.labelText = text;
+    }
+    
+    public String getLabelText() {
+    	return labelText;
+    }
+    
+    public void setFont(Font font) {
+    	this.font = font;
+    }
+    
+    public Font getFont() {
+    	return font;
+    }
+    
+    public void setAdjustFont(boolean adjustFont) {
+    	this.adjustFont = adjustFont;
+    }
+    
+    public boolean isAdjustFont() {
+    	return adjustFont;
+    }
+    
+    public void setEnabled(boolean enabled) {
+    	this.enabled = enabled;
+    }
+    
+    public boolean isEnabled() {
+    	return enabled;
+    }
+    
+    public void setFontSizeMultiplier(double fontSizeMultiplier) {
+    	this.fontSizeMultiplier = fontSizeMultiplier;
+    }
+    
+    public double getFontSizeMultiplier() {
+    	return fontSizeMultiplier;
+    }
+    
+    private void defineLabelCoordinates() {
+    	FontRenderContext frc = new FontRenderContext(new AffineTransform(), true, true);
+    	double textHeight = (font.getStringBounds(labelText, frc).getHeight())*labelText.lines().count();
+    	labelX = buttonX + buttonWidth/2;
+    	labelY = buttonY + (buttonHeight - textHeight*pres.getScaleY())/2;
+    }
+    
+    // подбор размера шрифта под размер кнопки
+    private void adjustFont() {
+    	FontRenderContext frc = new FontRenderContext(new AffineTransform(), true, true);
+    	font = new Font(font.getName(), 0, (int)(buttonHeight*fontSizeMultiplier));
+    	while(font.getStringBounds(labelText, frc).getWidth() >= buttonWidth) 
+    		font = new Font(font.getName(), 0, font.getSize() - 1);
+    	while ((font.getStringBounds(labelText, frc).getHeight())*labelText.lines().count() >= buttonHeight)
+			font = new Font(font.getName(), 0, font.getSize() - 1);
+    }
+    
+
+    private void applyButtonStyle(ButtonStyle buttonStyle) {
+    	fillColor = buttonStyle.getFillColor();
+    	lineColor = buttonStyle.getLineColor();
+    	lineStyle = buttonStyle.getLineStyle();
+    	lineWidth = buttonStyle.getLineWidth();
+    	textColor = buttonStyle.getTextColor();
+    	fontSizeMultiplier = buttonStyle.getFontSizeMultiplier();
+    	font = new Font(buttonStyle.getFontName(), 0, buttonStyle.getFontSize());
+    }
+    
+}]]></Text>
+		</JavaClass>
+		<!--   =========   Java Class   ========  -->
+		<JavaClass>
+			<Id>1651176951390</Id>
+			<Name><![CDATA[ButtonStyle]]></Name>
+			<Text><![CDATA[/**
+ * ButtonStyle
+ */	
+public class ButtonStyle implements Serializable {
+
+    public ButtonStyle() {
+    }
+
+	// дефолтный стиль
+	private Color fillColor = new Color(234, 119, 42);
+	private Color lineColor = null;
+	private Color textColor = Color.WHITE;
+	private LineStyle lineStyle = LineStyle.LINE_STYLE_SOLID;
+	private double lineWidth = 1;
+	private double fontSizeMultiplier = 0.5;
+	private int fontSize = 10;
+	private String fontName = "Segoe UI";
+
+	public void setFillColor(Color color) {
+    	this.fillColor = color;
+    }
+    
+    public Color getFillColor() {
+    	return fillColor;
+    }
+    
+    public void setLineColor(Color color) {
+    	this.lineColor = color;
+    }
+    
+    public Color getLineColor() {
+    	return lineColor;
+    }
+    
+    public void setLineStyle(LineStyle lineStyle) {
+    	this.lineStyle = lineStyle;
+    }
+    
+    public LineStyle getLineStyle() {
+    	return lineStyle;
+    }
+    
+    public void setLineWidth(double lineWidth) {
+    	this.lineWidth = lineWidth;
+    }
+    
+    public double getLineWidth() {
+    	return lineWidth;
+    }
+    
+    public void setTextColor(Color color) {
+    	this.textColor = color;
+    }
+    
+    public Color getTextColor() {
+    	return textColor;
+    }
+    
+    public void setFontSizeMultiplier(double fontSizeMultiplier) {
+    	this.fontSizeMultiplier = fontSizeMultiplier;
+    }
+    
+    public double getFontSizeMultiplier() {
+    	return fontSizeMultiplier;
+    }
+    
+    public void setFontSize(int fontSize) {
+    	this.fontSize = fontSize;
+    }
+    
+    public int getFontSize() {
+    	return fontSize;
+    }
+    
+    public void setFontName(String fontName) {
+    	this.fontName = fontName;
+    }
+    
+    public String getFontName() {
+    	return fontName;
+    }
+}]]></Text>
+		</JavaClass>
+		<!--   =========   Java Class   ========  -->
+		<JavaClass>
+			<Id>1651236940845</Id>
+			<Name><![CDATA[Header]]></Name>
+			<Text><![CDATA[/**
+ * Header
+ */	
+
+public class Header implements Serializable {
+
+	private LabelMenu labelMenu;
+	private ShapeImage logo;
+	private ShapeText clock;
+	private ArrayList<Object> elements;
+	private ShapeRectangle rec;
+	private ShapeTopLevelPresentationGroup pres;
+    public Header(ShapeRectangle rec, ShapeTopLevelPresentationGroup pres, int fontSize, String pictureUrl, String ... text) {
+    	this.rec = rec;
+    	rec.setVisible(false);
+    	this.pres = pres;
+    	ShapeRectangle labelMenuRec = new ShapeRectangle(SHAPE_DRAW_2D3D, true, rec.getX(), rec.getY(), rec.getZ(), rec.getRotation(), 
+    	            black, white, rec.getWidth()*0.5, rec.getHeight(), rec.getZHeight(), 1.0, LINE_STYLE_SOLID);
+    	this.labelMenu = new LabelMenu(labelMenuRec, pres, fontSize, text);
+    	if(pictureUrl != null) {
+    		logo = new ShapeImage(pres.getPresentable(), SHAPE_DRAW_2D3D, true, rec.getX() + rec.getWidth()*0.8, rec.getY(), rec.getZ(), rec.getRotation(), 
+    			rec.getWidth()*0.2, rec.getHeight(), "/uikitapple/", new String[]{pictureUrl});
+    		pres.add(logo);
+    	}
+    }
+
+}]]></Text>
+		</JavaClass>
+		<!--   =========   Java Class   ========  -->
+		<JavaClass>
+			<Id>1651636674460</Id>
+			<Name><![CDATA[LabelAction]]></Name>
+			<Text><![CDATA[public interface LabelAction
+{
+	void execute();
+}]]></Text>
+		</JavaClass>
+		<!--   =========   Java Class   ========  -->
+		<JavaClass>
+			<Id>1651636727058</Id>
+			<Name><![CDATA[LabelElement]]></Name>
+			<Text><![CDATA[/**
+ * LabelElement
+ */	
+public class LabelElement extends ShapeRoundedRectangle {
+
+	public LabelElement(boolean ispublic,double x,double y,double rotation,java.awt.Paint lineColor,
+    		java.awt.Paint fillColor,double width,double height,
+    		double radius,double lineWidth, LineStyle lineStyle, HashMap<ShapeRectangle, ShapeText> labelArray, LabelAction action) {
+    	super(ispublic, x, y, rotation,lineColor, fillColor, width, height, radius, lineWidth,  lineStyle);
+    	this.labelArray = labelArray;
+    	this.action = action;
+    }
+	
+	public LabelElement(boolean ispublic,double x,double y,double rotation,java.awt.Paint lineColor,
+    		java.awt.Paint fillColor,double width,double height,
+    		double lineWidth, LineStyle lineStyle,  HashMap<ShapeRectangle, ShapeText> labelArray, int index) {
+    	
+    	//super(ispublic, x, y, rotation,lineColor, fillColor, width, height, lineWidth, lineStyle);
+    	this.labelArray = labelArray;
+    	this.action = action;
+    }
+
+    private HashMap<ShapeRectangle, ShapeText> labelArray;
+    private LabelAction action;
+    @Override
+    public boolean onClick(double x, double y) {
+    	for (Map.Entry<ShapeRectangle, ShapeText> e : labelArray.entrySet()) {
+    		ShapeRectangle key = e.getKey();
+    		ShapeText value = e.getValue();
+    		if(key.equals(this)) {
+    			key.setFillColor(new Color(0, 122, 255));
+    			value.setColor(white);
+    		}else {
+    			key.setFillColor(white);
+    			value.setColor(new Color(0, 122, 255));
+    		}
+    		
+    	}
+    	
+    	action.execute();
+    	return false;
+    }
+
+}]]></Text>
+		</JavaClass>
+	</JavaClasses>
+	<ModelResources>
+		<Resource>
+			<Path><![CDATA[logo.jpg]]></Path>
+			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+		</Resource>
+	</ModelResources>
+    <RequiredLibraryReference>
+		<LibraryName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></LibraryName>
+		<VersionMajor>1</VersionMajor>
+		<VersionMinor>0</VersionMinor>
+		<VersionBuild>0</VersionBuild>
+    </RequiredLibraryReference>
+    <RequiredLibraryReference>
+		<LibraryName><![CDATA[com.anylogic.libraries.processmodeling]]></LibraryName>
+		<VersionMajor>8</VersionMajor>
+		<VersionMinor>0</VersionMinor>
+		<VersionBuild>5</VersionBuild>
+    </RequiredLibraryReference>
+</Model>
+</AnyLogicWorkspace>
